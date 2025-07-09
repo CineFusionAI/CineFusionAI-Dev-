@@ -1,0 +1,48 @@
+/* Styles for the main container of the splash screen */
+.splash-screen-container {
+  position: fixed; /* Positions the container relative to the viewport */
+  top: 0;          /* Aligns to the top edge of the viewport */
+  left: 0;         /* Aligns to the left edge of the viewport */
+  width: 100vw;    /* Makes the container span the full viewport width */
+  height: 100vh;   /* Makes the container span the full viewport height */
+  
+  /* Flexbox properties to center the content (the image) horizontally and vertically */
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;     /* Centers vertically */
+  
+  background-color: #000; /* Sets a solid black background for the entire splash screen area */
+  z-index: 9999; /* Ensures the splash screen appears on top of all other content */
+}
+
+/* Styles for the actual splash screen image within its container */
+.splash-screen-image {
+  /* These properties are crucial for making the image appear as a "small centered container"
+    rather than stretching to fill the entire screen.
+    It ensures the image scales down if the screen is too small, but doesn't get too large.
+  */
+  max-width: 60%;  /* Limits the image's width to 60% of its container (the viewport) */
+  max-height: 60%; /* Limits the image's height to 60% of its container (the viewport) */
+  width: auto;     /* Allows the image to scale down while maintaining aspect ratio */
+  height: auto;    /* Allows the image to scale down while maintaining aspect ratio */
+  
+  display: block; /* Removes any extra space below the image, common with inline elements */
+  
+  /* Optional: Adds a subtle glow effect around the image */
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.5); /* Cyan glow with some transparency */
+  
+  /* Optional: Adds slightly rounded corners to the image */
+  border-radius: 8px; 
+}
+
+/* Optional: Styles for a loading text element, if you choose to add one in SplashScreen.js */
+/*
+.loading-text {
+  position: absolute; /* Position relative to the splash-screen-container */
+  bottom: 20px;     /* Places it 20px from the bottom of the container */
+  color: white;     /* White text color */
+  font-family: 'Inter', Arial, sans-serif; /* Example font */
+  font-size: 1.2em; /* Font size */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Subtle text shadow for readability */
+}
+*/
