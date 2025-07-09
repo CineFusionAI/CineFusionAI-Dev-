@@ -2,11 +2,18 @@
 
 ## CineFusion AI - The Future of Open-Source Video Editing
 
+
+<p align="center">
+  <img src="public/images/CineFusionAI Icon with Text Logo.png" alt="CineFusionAI Logo" width="400"/>
+</p>
+
 **CineFusion AI** is an innovative, community-driven, and 100% free **open-source video editing suite** that combines **professional-grade tools** with the power of **artificial intelligence**. Designed for content creators, editors, VFX artists, YouTubers, indie filmmakers, educators, and enthusiasts alike — CineFusion AI redefines what's possible in creative software by making high-performance editing accessible to everyone.
 
 Whether you're cutting a vlog, designing motion graphics, enhancing soundtracks, or leveraging AI to automate complex tasks — CineFusion AI provides you with a powerful, intuitive, and extensible platform that runs on Windows, macOS, and Linux.
 
-🌐 **Official Website:** [https://cinefusionai.blogspot.com/](https://cinefusionai.blogspot.com/)
+
+📧 **Contact Us:** cinefusionai.report@outlook.com  
+🌐 **Official Main Website:** [https://cinefusionai.blogspot.com/](https://cinefusionai.blogspot.com/)
 
 ---
 
